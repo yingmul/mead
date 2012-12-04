@@ -1,0 +1,15 @@
+School Name
+  Address
+  (1 to many class)
+	Class Name
+	Class code (optional)
+	Price
+	Class Description
+	Status (open, waitlist, only 1 seat left)
+	Schedule
+	  Start Date
+	  number of meetings
+		(1 to many instructor)
+		Instructor
+			name 
+			bio
