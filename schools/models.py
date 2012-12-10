@@ -46,8 +46,8 @@ class Schedule(models.Model):
     school_class = models.ForeignKey(Class, related_name="class_schedules")
     start_date = models.DateField('Start Date')
     num_meetings = models.IntegerField(default=1)
-    start_time = models.DateTimeField('Start Time')
-    end_time = models.DateTimeField('End Time')
+    start_time = models.TimeField('Start Time')
+    end_time = models.TimeField('End Time')
     max_students = models.IntegerField(null=True)
 
     def __unicode__(self):
