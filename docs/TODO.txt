@@ -1,0 +1,4 @@
+1. Consider adding 
+	modenizer	
+	polyfill
+	jquery ui
