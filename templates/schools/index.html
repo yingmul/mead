@@ -1,3 +1,6 @@
+{% extends "sitebase.html" %}
+
+{% block content %}
 {% if schools %}
     <ul>
         {% for school in schools %}
@@ -5,3 +8,4 @@
         {% endfor %}
     </ul>
 {%  endif  %}
+{% endblock content %}
